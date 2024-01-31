@@ -1,0 +1,319 @@
+@media screen and (min-resolution: 2dppx) {
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mob-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .header-logo-blue {
+    margin-right: 120px;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link.current {
+    position: relative;
+  }
+
+  .nav-link.current::after {
+    content: "";
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #404bbf;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404bbf;
+  }
+
+  .contacts {
+    display: block;
+    font-style: normal;
+    color: #434455;
+  }
+
+  .contacts-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts-link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #404bbf;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .main-section {
+    padding: 112px 0;
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+
+  .main-section-text {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+    text-transform: none;
+  }
+
+  .features-title-name {
+    text-align: left;
+  }
+
+  .features-list {
+    gap: 72px 24px;
+  }
+
+  .features-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .team-list {
+    gap: 64px 24px;
+  }
+
+  .our-team > .container {
+    max-width: 736px;
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-list {
+    gap: 72px 24px;
+  }
+
+  .portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 108px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+
+  .footer-description {
+    max-width: 264px;
+  }
+
+  .footer-modal-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-form-input {
+    width: 264px;
+  }
+
+  .modal {
+    max-width: 408px;
+    min-height: 584px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .our-team > .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header {
+    padding: 24px 0;
+  }
+
+  .header-logo-blue {
+    margin-right: 76px;
+  }
+
+  .contacts-menu-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .main-section {
+    padding: 188px 0;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desk.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-desk-2x.jpg);
+    }
+  }
+
+  .main-section-text {
+    margin-bottom: 48px;
+  }
+
+  .features {
+    padding: 120px 0;
+  }
+
+  .features-title-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .features-list {
+    gap: 24px;
+  }
+
+  .features-icon-block {
+    width: 100%;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .features-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .feature-description {
+    font-weight: 400;
+  }
+
+  .our-team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .our-portfolio {
+    padding: 120px 0;
+  }
+
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .portfolio-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .footer-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .footer-general-info {
+    margin-right: 120px;
+  }
+
+  .footer-social-media {
+    margin-right: 80px;
+  }
+
+  .footer-form-input {
+    border: 1px solid #fff;
+  }
+
+  .footer-form-input::placeholder {
+    color: #fff;
+  }
+}
